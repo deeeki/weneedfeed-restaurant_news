@@ -1,0 +1,86 @@
+title: Restaurant News
+
+pages:
+  - id: mcdonalds
+    title: McDonald's News
+    url: https://www.mcdonalds.co.jp/news.json
+    item_selector: //datum
+    item_link_selector: slug
+    item_title_selector: title
+    item_time_selector: updatedAt
+
+  - id: mosburger
+    title: MOS BURGER News
+    url: https://www.mos.co.jp/company/newsrelease/
+    item_selector: ul.linkList.release > li
+    item_link_selector: a
+    item_title_selector: a > span
+    item_time_selector: span.date
+
+  - id: kfc
+    title: KFC News
+    url: https://www.kfc.co.jp/news
+    item_selector: ul.c-catalog > li
+    item_link_selector: a
+    item_title_selector: p.c-catalog-item__title
+    item_image_selector: img
+    item_time_selector: p.c-catalog-item__date
+
+  - id: sukiya
+    title: SUKIYA News
+    url: https://www.sukiya.jp/news/index.html
+    item_selector: tr
+    item_link_selector: a
+    item_title_selector: td:nth-of-type(2)
+    item_time_selector: th
+
+  - id: kappasushi
+    title: Kappasushi News
+    url: https://www.kappasushi.jp/campaign_list/
+    item_selector: ul.list > li
+    item_link_selector: a
+    item_title_selector: dd > p
+    item_description_selector: dd > span
+    item_image_selector: img
+
+  - id: ohsho
+    title: GYOZA OHSHO News
+    url: https://www.ohsho.co.jp/info/parts_info.html
+    item_selector: article.release
+    item_link_selector: a
+    item_title_selector: a
+    item_time_selector: p.date
+
+  - id: ringerhut
+    title: Ringer Hut News
+    url: https://www.ringerhut.jp/news/
+    item_selector: ul.newslist > li
+    item_link_selector: a
+    item_title_selector: div.newslist__title
+    item_time_selector: time
+
+  - id: cocoichi
+    title: CURRY HOUSE CoCo ICHIBANYA News
+    url: https://www.ichibanya.co.jp/whatsnew/
+    item_selector: ul.box-news__link > li
+    item_link_selector: a
+    item_title_selector: a
+    item_time_selector: a > span
+
+  - id: gindaco
+    title: Gindaco News
+    url: https://www.gindaco.com/news/page/1/
+    item_selector: ul.chakra-stack.css-kbf6f9 > li
+    item_link_selector: a
+    item_title_selector: a > span:nth-of-type(1)
+    item_time_selector: time
+
+  - id: komeda
+    title: Komeda's Coffee News
+    url: https://eu.komeda.co.jp/v1/hp/notice?limit=20&type=2
+    item_selector: //item
+    item_link_selector: pc_image
+    item_title_selector: title
+    item_description_selector: contents
+    item_image_selector: pc_image
+    item_time_selector: date
