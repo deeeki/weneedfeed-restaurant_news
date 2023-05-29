@@ -26,6 +26,14 @@ pages:
     item_image_selector: img
     item_time_selector: p.c-catalog-item__date
 
+  - id: misterdonut
+    title: Mister Donut News
+    url: https://www.misterdonut.jp/whatsnew/
+    item_selector: div.tab_panel[data-tab="all"] > div.mod_date_list > ul > li.date_item
+    item_link_selector: a
+    item_title_selector: a
+    item_time_selector: p.date
+
   - id: sukiya
     title: SUKIYA News
     url: https://www.sukiya.jp/news/index.html
@@ -51,6 +59,15 @@ pages:
     item_title_selector: a
     item_time_selector: p.date
 
+  - id: marugen
+    title: MARUGEN RAMEN News
+    url: https://www.syodai-marugen.jp/news/
+    item_selector: a.newsContainer__item
+    item_link_selector: .
+    item_title_selector: h2.item__title
+    item_image_selector: img.item__img
+    item_time_selector: p.item__pubdate
+
   - id: ringerhut
     title: Ringer Hut News
     url: https://www.ringerhut.jp/news/
@@ -74,6 +91,14 @@ pages:
     item_link_selector: a
     item_title_selector: a > span:nth-of-type(1)
     item_time_selector: time
+
+  - id: gusto
+    title: Gusto News
+    url: https://www.skylark.co.jp/gusto/
+    item_selector: ul._items.js-information-list > li
+    item_link_selector: a
+    item_title_selector: a
+    item_time_selector: p.date
 
   - id: komeda
     title: Komeda's Coffee News
