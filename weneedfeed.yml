@@ -102,7 +102,7 @@ pages:
 
   - id: komeda
     title: Komeda's Coffee News
-    url: https://eu.komeda.co.jp/v1/hp/notice?limit=20&type=2
+    url: https://eu.komeda.co.jp/v1/hp/notice?type=2
     item_selector: //item
     item_link_selector: pc_image
     item_title_selector: title
