@@ -17,15 +17,6 @@ pages:
     item_title_selector: a > span
     item_time_selector: span.date
 
-  - id: kfc
-    title: KFC News
-    url: https://www.kfc.co.jp/news
-    item_selector: ul.c-catalog > li
-    item_link_selector: a
-    item_title_selector: p.c-catalog-item__title
-    item_image_selector: img
-    item_time_selector: p.c-catalog-item__date
-
   - id: misterdonut
     title: Mister Donut News
     url: https://www.misterdonut.jp/whatsnew/
