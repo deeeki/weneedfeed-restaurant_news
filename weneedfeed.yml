@@ -100,3 +100,11 @@ pages:
     item_description_selector: contents
     item_image_selector: pc_image
     item_time_selector: date
+
+  - id: aeonmall-okazaki
+    title: AEON Mall Okazaki Event News
+    url: https://okazaki-aeonmall.com/news/event
+    item_selector: ul.itemList > li.item
+    item_link_selector: a
+    item_title_selector: a > div.thumRight > h2.newsTtl
+    item_description_selector: a > div.thumRight > dl.dtl
